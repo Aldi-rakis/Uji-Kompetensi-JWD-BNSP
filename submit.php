@@ -3,6 +3,7 @@ include 'config.php';
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Ambil data dari form
+    
     $nama = $_POST['nama'];
     $email = $_POST['email'];
     $phone = $_POST['phone'];
